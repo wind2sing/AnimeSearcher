@@ -4,4 +4,4 @@ COPY ./requirements.txt /app/
 RUN python3.8 -m pip install -r requirements.txt
 
 COPY ./ /app
-ENTRYPOINT [ "python", "app.py" ]
+ENTRYPOINT [ "python", "deploy.py" ]
