@@ -6,8 +6,8 @@
         "update": "https://gitee.com/api/v5/repos/zaxtyson/AnimeSearcher/releases/latest"
     },
     "domain_mapping": {
-        "www.yhdm.so": "yhdm.wegather.tk",
-        "api.agefans.app": "agefans.wegather.tk"
+        "www.yhdm.so": "www.yhdm.so",
+        "api.agefans.app": "api.agefans.app"
     },
     "anime": [
         {
