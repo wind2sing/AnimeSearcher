@@ -34,6 +34,13 @@ class APIRouter:
         """
         self._domain = f"{domain}:{self._port}" if domain else self._domain
 
+    def set_real_domain(self, domain: str):
+        """
+        设置 API 返回的资源链接的域名
+        如: http://www.foo.bar
+        """
+        self._domain = f"{domain}" if domain else self._domain
+
     def run(self):
         """启动 API 解析服务"""
 

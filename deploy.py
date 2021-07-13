@@ -16,5 +16,5 @@ domain = "https://anis.2sing.me"
 
 if __name__ == '__main__':
     app = APIRouter(host, port)
-    app.set_domain(domain)
+    app.set_real_domain(domain)
     app.run()
