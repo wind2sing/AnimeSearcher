@@ -27,7 +27,7 @@
             "type": [
                 "综合"
             ],
-            "enable": false,
+            "enable": true,
             "quality": 9
         },
         {
@@ -37,7 +37,7 @@
             "type": [
                 "动漫"
             ],
-            "enable": false,
+            "enable": true,
             "quality": 8
         },
         {
@@ -47,7 +47,7 @@
             "type": [
                 "动漫"
             ],
-            "enable": false,
+            "enable": true,
             "quality": 8
         },
         {
@@ -57,7 +57,7 @@
             "type": [
                 "动漫"
             ],
-            "enable": false,
+            "enable": true,
             "quality": 8
         },
         {
@@ -67,7 +67,7 @@
             "type": [
                 "动漫"
             ],
-            "enable": false,
+            "enable": true,
             "quality": 6
         },
         {
