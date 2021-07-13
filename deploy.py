@@ -1,5 +1,6 @@
 from api.router import APIRouter
-from config import *
+import os
+
 """
 全局配置文件
 """
@@ -12,7 +13,7 @@ host = "0.0.0.0"
 port = 6001
 
 # 绑定域名, 含协议字段不含端口号
-domain = "https://anis.2sing.me"
+domain = os.environ.get('DOMAIN', "https://aniapi.2sing.me")
 
 if __name__ == '__main__':
     app = APIRouter(host, port)
