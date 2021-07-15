@@ -16,6 +16,7 @@ port = 6001
 domain = os.environ.get('DOMAIN', "https://aniapi.2sing.me")
 
 if __name__ == '__main__':
+    print('domain:', domain)
     app = APIRouter(host, port)
     app.set_real_domain(domain)
     app.run()
