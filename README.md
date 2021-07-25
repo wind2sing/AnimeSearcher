@@ -31,7 +31,7 @@
 
 > Windows
 
-[蓝奏云下载](https://zaxtyson.lanzous.com/b0f1ukafc)  
+[蓝奏云下载](https://zaxtyson.lanzoux.com/b0f1ukafc)  
 [Gitee国内镜像](https://gitee.com/zaxtyson/AnimeSearcher/releases)
 
 > Linux/MacOS
@@ -84,6 +84,18 @@ nohup python3.8 app.py &
 如果有建议或者吐槽, 请找对人哦~~
 
 ## 更新日志
+
+## `v1.4.3`
+
+- 新增视频引擎 `4K鸭奈菲(4Kya)`
+- 新增视频引擎 `Lib在线(libvio)`  
+- 新增视频引擎 `阿房影视(afang)`  
+- 修复视频引擎 `AgeFans` 域名映射异常的问题
+- 修复视频引擎 `ZzzFun` 部分视频无法播放的问题
+- 修复视频引擎 `bimibimi` 无法搜索和播放的问题
+- 修复视频引擎 `K1080` 部分视频无法播放的问题
+- 弃用视频引擎 `Meijuxia`, 质量太差
+- 弃用视频引擎 `bde4`
 
 ### `v1.4.2`
 
